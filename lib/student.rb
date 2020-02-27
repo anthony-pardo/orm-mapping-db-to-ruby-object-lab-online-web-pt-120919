@@ -80,6 +80,7 @@ class Student
       SELECT *
       FROM students
       WHERE grade = 10
+      ORDER BY name
       LIMIT 1
     SQL
  
